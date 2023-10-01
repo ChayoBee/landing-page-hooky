@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    background-color: lightpink;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.fondo {
+    background-image: url("../images/Hooky-Banner-1.jpg");
+    background-color: rgba(0, 0, 255, 0.363);
+    background-blend-mode: multiply;
+    background-size:cover;
+    background-position: center;
+    padding: 10em; 
+}
+
+.titulo, .slogan{
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+h1, h2, p {
+    text-align: left;
+}
+
+th {
+    border: solid 0px;
+}
+
+td {
+    text-align: center;
+    border: solid 0px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+footer {
+    padding: 5em 0;
+}
